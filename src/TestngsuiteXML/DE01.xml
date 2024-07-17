@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name = "Dhana Suite">
+	<test name = "My Test">
+		<classes>
+			<class name = "Testng.D02MultipleTests">
+				<methods>
+					<include name = "openMeesho"></include>		
+					<include name = "openFlipkart"></include>		
+					<include name= "openMyntra"></include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+</suite>
